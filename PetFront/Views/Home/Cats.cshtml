@@ -1,0 +1,24 @@
+﻿@model List<KeyValuePair<string, string>>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Cats By Owner Gender and Pet Name</h2>
+        @{
+            var gender = "";
+        }        
+        @foreach (var pet in Model)
+        {
+            // show that the Model is correct, instead of grouping the Model here by gender and then show pets in each group 
+            @if (gender != pet.Key)
+            {
+                gender = pet.Key;
+                <h3>@pet.Key</h3>
+            }
+            <div>&nbsp; &nbsp; @pet.Value</div>
+        }
+    </div>    
+</div>

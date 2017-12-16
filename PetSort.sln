@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetFront", "PetFront\PetFront.csproj", "{1822849F-DCC5-48E2-A1CD-2F0D0587AC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetLibrary", "PetLibrary\PetLibrary.csproj", "{36128C32-E336-4D6E-A863-024306E82450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTest", "PetTest\PetTest.csproj", "{DB21AB5A-8532-48DF-B549-DB72C463C942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1822849F-DCC5-48E2-A1CD-2F0D0587AC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1822849F-DCC5-48E2-A1CD-2F0D0587AC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1822849F-DCC5-48E2-A1CD-2F0D0587AC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1822849F-DCC5-48E2-A1CD-2F0D0587AC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36128C32-E336-4D6E-A863-024306E82450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36128C32-E336-4D6E-A863-024306E82450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36128C32-E336-4D6E-A863-024306E82450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36128C32-E336-4D6E-A863-024306E82450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB21AB5A-8532-48DF-B549-DB72C463C942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB21AB5A-8532-48DF-B549-DB72C463C942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB21AB5A-8532-48DF-B549-DB72C463C942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB21AB5A-8532-48DF-B549-DB72C463C942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67AACE87-EE49-48AB-9AB0-CBB659D19D84}
+	EndGlobalSection
+EndGlobal
